@@ -98,7 +98,7 @@ def main():
     # message = 'my life is potato'
     message = "rosaauraliaa"
 
-    K = np.matrix([[3, 7], [9, 5]])
+    K = np.matrix([[3, 4], [6, 5]])
     # K = np.matrix([[6, 24, 1], [13,16,10], [20,17,15]]) # for length of alphabet = 26
     # K = np.matrix([[3,10,20],[20,19,17], [23,78,17]]) # for length of alphabet = 27
     Kinv = matrix_mod_inv(K, len(alphabet))
